@@ -1,5 +1,7 @@
 <?php
 
+// пространство имен
+
     use App\Models\SpinText;
 
     class SpinTextTest extends PHPUnit\Framework\TestCase {

@@ -27,7 +27,7 @@
             // return $new_strong;
         }
 
-        function SpinWord($text) {
+        private function SpinWord($text) {
             $znak_N = 0; //переменная для обнаружения знака (: ; . ! ? ,)
             $znak_L = ""; //Значение знака (: ; . ! ? ,)
             $text = mb_strtolower($text);  //все в нижний регистр
@@ -60,9 +60,6 @@
     }
 // Наш текст
 $My_text = "Нет никого, кто любил бы боль Саму по себе.";
-
-
-
 
 $result = new SpinText();
 $result->StringChange($My_text);
