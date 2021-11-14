@@ -21,7 +21,7 @@
                 //Собираем слов в строку
                 $new_strong = $new_strong . $new_text . " ";
             }
-            $new_strong = trim($new_strong);//Убераем пробелы
+            $new_strong = trim($new_strong);
             $this->new_strong = $new_strong;
             // echo $this->$new_strong . "2";
             // return $new_strong;
